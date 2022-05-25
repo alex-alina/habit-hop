@@ -15,27 +15,11 @@ const SignUp = () => {
     >
       Start your jurney here:
       <Button
-        variant="primary"
+        variant="primaryLg"
         disabled={false}
         onClick={() => console.log('clicked')}
       >
-        Create account if you want
-      </Button>
-      <Button
-        variant="secondary"
-        disabled={false}
-        my={5}
-        onClick={() => console.log('clicked')}
-      >
-        I am a secondary btn
-      </Button>
-      <Button
-        disabled={false}
-        variant="tertiary"
-        mb={5}
-        onClick={() => console.log('clicked')}
-      >
-        Tertiary here
+        Create account
       </Button>
       <Link to="/goals">
         <button>Go go goals!</button>
